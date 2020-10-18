@@ -12,7 +12,9 @@
             <id>github</id>
             <name>GitHub diegoHeartless Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/diegoHeartless</url>
+
         </repository>
+
     </distributionManagement>
     <build>
         <plugins>
@@ -38,6 +40,19 @@
             <version>5.2.3.RELEASE</version>
         </dependency>
     </dependencies>
-
+    <pluginRepositories>
+        <pluginRepository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/diegoHeartless</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>daily</updatePolicy>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+        </pluginRepository>
+    </pluginRepositories>
 
 </project>
