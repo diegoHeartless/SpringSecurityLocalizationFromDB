@@ -1,3 +1,5 @@
+package com.diegoheartless.tools;
+
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
