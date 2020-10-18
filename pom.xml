@@ -10,8 +10,8 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub OWNER Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/diegoHeartless/SpringSecurityLocalizationFromDB</url>
+            <name>GitHub diegoHeartless Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/diegoHeartless</url>
         </repository>
     </distributionManagement>
     <build>
